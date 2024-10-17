@@ -21,7 +21,7 @@ body{
     border-radius: 1.133rem;
     box-shadow: 0 0 2.5 rem rgb(44, 43, 43) ;
 }
-@media (max-width:840px) {
+@media screen and (max-width: 950px) {
     .container{
         max-height: 100%;
     }
@@ -82,7 +82,7 @@ input:focus {
     justify-content: space-evenly;
     text-align: center;
 }
-@media (max-width:800px) {
+@media screen and (max-width: 950px) {
     #stat{
         flex-direction: column; 
         }
